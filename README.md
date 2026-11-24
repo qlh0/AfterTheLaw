@@ -11,16 +11,19 @@
 - **查看世界事件**。底部「世界事件」面板展示已生效的法则、稳定的关系变化、重要冲突和死亡。连续交手会合并显示，每局保留最近 200 条。
 - **和世界说话**。接入 DeepSeek 后，可以用中文问世界的现状、提出法则改动，或从角色面板生成第一人称故事。Unity 根据实际世界状态运行模拟，并校验模型提出的规则和参数改动。
 
-## 在 Windows 上启动
+## 在 Windows 或 macOS 上启动
 
-1. 安装 Unity Hub，并安装 **Unity 6.3 LTS `6000.3.9f1`**。建议使用项目配置里的这个版本。 [Unity 官方下载](https://unity.com/releases/editor/whats-new/6000.3.9f1)
-2. 下载源码，或在终端克隆仓库。
+1. 安装 Unity Hub，然后安装 **Unity 6.3 LTS `6000.3.9f1`**。在发布页手动下载时，按电脑选择安装包。 [Unity 官方下载](https://unity.com/releases/editor/whats-new/6000.3.9f1)
+   - **Windows x64** 选 **Windows**。
+   - **Apple 芯片 Mac（M 系列）**选 **macOS ARM64**。
+   - **Intel 芯片 Mac** 选 **macOS**。
+2. 下载并解压源码，或在 Windows 的 PowerShell、macOS 的终端里运行下面的命令。
 
-   ```powershell
+   ```sh
    git clone https://github.com/qlh0/AfterTheLaw.git
    ```
 
-3. 在 Unity Hub 选择 **项目 → 添加 → 从磁盘添加项目**，选中包含 `Assets`、`Packages` 和 `ProjectSettings` 的项目根目录。首次打开时等待 Unity 导入资源和编译脚本。
+3. 在 Unity Hub 选择 **项目 → 添加 → 从磁盘添加项目（Projects → Add → Add project from disk）**，选中包含 `Assets`、`Packages` 和 `ProjectSettings` 的项目根目录。首次打开时等待 Unity 导入资源和编译脚本。
 4. 在 Unity 的 **Project** 面板打开 `Assets/_Project/Scenes/World.unity`，点顶部 **▶ Play**，再在 **Game** 窗口点 **开始模拟**。
 
 基础模拟、手动规则手册和世界事件可以离线运行。首次导入时，Unity 可能需要联网下载项目依赖。
