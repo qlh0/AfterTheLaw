@@ -1,0 +1,13 @@
+mode,requested_agents,alive_start,alive_end,list_size_end,avg_ms_per_tick,p95_ms_per_tick,max_ms_per_tick,alloc_bytes_per_tick,gc_gen0_collections
+fixed_world,50,50,50,50,0.406,0.464,1.467,0,0
+fixed_world,120,120,120,120,1.769,2.158,2.219,0,0
+fixed_world,250,250,250,250,7.332,9.377,11.979,0,0
+fixed_world,500,500,500,500,34.288,43.531,47.994,0,0
+fixed_world,1000,1000,1000,1000,163.986,247.664,295.463,0,2
+fixed_world,2000,2000,2000,2000,1369.300,1931.937,1988.389,0,17
+constant_density,50,50,50,50,0.438,0.491,0.505,0,0
+constant_density,120,120,120,120,1.806,2.274,2.338,0,0
+constant_density,250,250,250,250,6.004,7.842,8.451,0,0
+constant_density,500,500,500,500,19.499,25.993,30.530,0,0
+constant_density,1000,1000,1000,1000,60.583,84.209,93.613,0,0
+constant_density,2000,2000,2000,2000,176.162,247.192,277.041,0,0

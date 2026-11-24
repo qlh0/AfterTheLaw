@@ -1,0 +1,4 @@
+Rename this file to anthropic_key.txt and replace this text with your
+Anthropic API key (starts with sk-ant-...). Get one at console.anthropic.com.
+
+anthropic_key.txt is gitignored — your key never enters version control.

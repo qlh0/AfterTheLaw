@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 3
+  tags: []
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Shadow
+    uniqueID: 160441701
+    locked: 0
+  - name: Agents
+    uniqueID: 3473755271
+    locked: 0
+  - name: DeadMark
+    uniqueID: 3184758985
+    locked: 0
+  - name: Home
+    uniqueID: 2187141979
+    locked: 0
+  - name: Tree
+    uniqueID: 3211522009
+    locked: 0
+  m_RenderingLayers:
+  - Default
